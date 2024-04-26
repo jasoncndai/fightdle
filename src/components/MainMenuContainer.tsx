@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../styles/MainMenuContainer.css";
 
 function MainMenuContainer() {
   return (
@@ -22,6 +23,33 @@ function MainMenuContainer() {
         <Link to="/move" className="menu-button">
           Guess Moves
         </Link>
+        {/* <button
+          className="btn btn-primary"
+          onClick={() => (window.location.href = "/character")}
+        >
+          Guess Characters
+        </button>
+        <div className="menu-divider"></div>
+        <button
+          className="btn btn-primary"
+          onClick={() => (window.location.href = "/stage")}
+        >
+          Guess Stages
+        </button>
+        <div className="menu-divider"></div>
+        <button
+          className="btn btn-primary"
+          onClick={() => (window.location.href = "/music")}
+        >
+          Guess Music
+        </button>
+        <div className="menu-divider"></div>
+        <button
+          className="btn btn-primary"
+          onClick={() => (window.location.href = "/move")}
+        >
+          Guess Moves
+        </button> */}
       </div>
     </div>
   );

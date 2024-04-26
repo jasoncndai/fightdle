@@ -46,6 +46,19 @@
   border-top: 1px solid #ccc;
 }
 
+/* Set background image for the root element (body) */
+body {
+  background-image: url('assets/FGCBackground.jpg');
+  /* Adjust background properties as needed */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Fixed background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-color: #000; /* Fallback color */
+  color: #fff; /* Default text color */
+  
+}
+
 /* Path: fightdle/src/components/CharacterCard.js */
 .card {
   display: flex;
